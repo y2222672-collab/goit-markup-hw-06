@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 ::after body {
@@ -290,8 +291,10 @@ p {
 /* -------------------------------------Features ----------------------------------------*/
 
 .features-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+margin-top: 96px;
+
 }
 
 .features-lishka {
