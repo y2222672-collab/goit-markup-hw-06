@@ -1224,7 +1224,7 @@
 
 @media screen and (min-resolution:192dpi) and (min-width:768px)     {
  .hero-class {
-   background-image:linear-gradient(
+   background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ), url(../images/mobi2x/ofis2x.jpg);
@@ -1232,20 +1232,10 @@
 }
 
 
-
-
-
-
-
-
-
-
   .wrapper {
     position: relative;
     overflow: hidden;
   }
-
-
 
   .box {
     position: relative;
