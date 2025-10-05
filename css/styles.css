@@ -156,6 +156,14 @@
 
   /* ===========================Hero ================================*/
 
+@media screen and (min-resolution:192dpi) and (max-width:767px)     {
+ .hero-class {
+   background-image: url(../images/mobi2x/hero2x.jpg);
+ }
+
+
+}
+
   .vektor-fant:hover {
     background-color: #404bbf;
   }
