@@ -156,13 +156,6 @@
 
   /* ===========================Hero ================================*/
 
-@media screen and (min-resolution:192dpi) and (max-width:767px)     {
- .hero-class {
-   background-image: url(../images/mobi2x/hero2x.jpg);
- }
-
-
-}
 
   .vektor-fant:hover {
     background-color: #404bbf;
@@ -1198,9 +1191,7 @@
 
   /*  ============backdrop======== */
 
- 
 
- 
 
   .modal-input {
     border: 1px solid #4d5ae5;
@@ -1208,6 +1199,16 @@
     width: 360px;
     height: 40px;
   }
+
+@media screen and (min-resolution:192dpi) and (max-width:767px)     {
+ .hero-class {
+   background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/mobi2x/ofis2x.jpg);
+ }
+}
+
 
 
 
@@ -1219,6 +1220,24 @@
   .burger-button {
     display: none;
   }
+
+
+@media screen and (min-resolution:192dpi) and (min-width:768px)     {
+ .hero-class {
+   background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/mobi2x/ofis2x.jpg);
+ }
+}
+
+
+
+
+
+
+
+
 
 
   .wrapper {
@@ -1374,8 +1393,15 @@ display: flex;
 /* =================Hero=============== */
 .features-title {
 text-align: start;
-
 }
+
+/* @media screen and (min-resolution:192dpi) and (min-width:768px) {
+  .hero-class {
+    background-image: url(/images/mobi2x/hero2x.jpg);
+  }
+} */
+
+
 
 
 
@@ -1537,6 +1563,26 @@ flex-direction: row;
     padding-left: 15px;
     padding-right: 15px;
   }
+
+
+@media screen and (min-resolution:192dpi) and (min-width:1158px)     {
+ .hero-class {
+   background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/mobi2x/ofis2x.jpg);
+ }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ============================TEST=============== */
 
