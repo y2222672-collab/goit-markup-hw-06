@@ -1205,7 +1205,7 @@
    background-image:linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ), url(../images/mobi2x/ofis2x.jpg);
+      ), url(../images/mobi1x/heroimage.jpg);
  }
 }
 
@@ -1385,11 +1385,6 @@ display: flex;
 text-align: start;
 }
 
-/* @media screen and (min-resolution:192dpi) and (min-width:768px) {
-  .hero-class {
-    background-image: url(/images/mobi2x/hero2x.jpg);
-  }
-} */
 
 
 
@@ -1710,13 +1705,13 @@ padding: 0 0;
   fill: white;
 }
 
-/* .icons:hover {
+.icons:hover {
   background-color: #404bbf;
 }
 
 .icons:focus {
   background-color: #404bbf;
-} */
+}
 
 /* brak */
 
@@ -1812,7 +1807,7 @@ padding: 0 0;
 
 
 .portfolio-li:hover .par-overley {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-ul {
