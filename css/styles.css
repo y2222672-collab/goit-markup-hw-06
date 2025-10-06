@@ -16,6 +16,7 @@
   img {
     display: block;
     max-width: 100%;
+    height: auto;
   }
 
   ol,
@@ -103,7 +104,7 @@
     max-width: 496px;
     font-weight: 500;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 72px;
   }
 
   .logo {
@@ -115,7 +116,7 @@
     text-transform: uppercase;
     display: flex;
     display: inline-block;
-    margin-right: 76px;
+
     padding-top: 24px;
     padding-bottom: 20px;
     position: relative;
@@ -202,6 +203,14 @@
 
   /* ======================================Features==================== */
 
+  .features-section {
+    padding: 96px 0;
+  }
+  .features-lishka-last {
+    margin-bottom: 0;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
   .features-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -211,11 +220,6 @@
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
-  }
-
-  .features-box {
-    margin-top: 96px;
-    margin-bottom: 96px;
   }
 
   .features-p {
@@ -321,8 +325,8 @@
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
 
   .name-box {
@@ -438,6 +442,7 @@
 
   .footer-color {
     background-color: #2e2f42;
+    padding: 96px 0;
   }
 
   .footer-text {
@@ -467,7 +472,6 @@
     letter-spacing: 0.03em;
     color: #4d5ae5;
     display: inline-block;
-    margin-top: 96px;
   }
 
   .footer-title {
@@ -487,11 +491,12 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
   }
   .footer-vektor {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
+    margin-bottom: 72px;
   }
 
   .social-footer-list {
@@ -553,11 +558,6 @@
     flex-direction: column;
   }
 
-  .footer-label {
-    width: 288px;
-    height: 40px;
-  }
-
   .footer-button {
     padding: 8px 24px;
     width: 165px;
@@ -584,7 +584,7 @@
   }
 
   .input-footer {
-    width: 264px;
+    width: 100%;
     height: 40px;
     margin-right: 24px;
     background-color: #2e2f42;
@@ -981,6 +981,18 @@
     gap: 24px;
   }
 
+  .contact-info-burger-tel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 24px;
+  }
+
   .contact-info-burger:focus {
     color: #404bbf;
   }
@@ -1005,6 +1017,16 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  .work-li {
+    background-color: #ffffff;
+    height: calc((100% - 32px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* =========================FEATURES */
 
   /* portfolio */
@@ -1020,15 +1042,6 @@
   }
 
   /* =========================FOOTER========= */
-
-  .social-footer-list {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 72px;
-  }
 
   .vektor-features {
     opacity: 1;
@@ -1055,6 +1068,10 @@
 }
 
 /* =========================================================Min 768px Planshet=================== */
+
+
+
+
 @media screen and (min-width: 768px) {
   .burger-button {
     display: none;
@@ -1141,7 +1158,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 16px;
   }
 
   .flex-nav {
@@ -1152,8 +1169,9 @@
   }
 
   .adress-list {
-    display: block;
-    gap: 40px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
   }
 
   .flex-item {
@@ -1200,8 +1218,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    padding-bottom: 24px;
-    padding-top: 24px;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .contact-info-mail:focus {
@@ -1241,11 +1258,12 @@
   .features-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .features-lishka {
     flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 0;
   }
 
   /*  ======================OUR PORTFOLIO ==============*/
@@ -1255,7 +1273,8 @@
     gap: 64px;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: flex-start;
+    align-content: center;
+    justify-content: center;
   }
 
   .work-li {
@@ -1264,8 +1283,6 @@
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    margin-left: auto;
-    margin-right: auto;
   }
 
   /* ==========================Portfolio=============== */
@@ -1276,7 +1293,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    justify-content: center;
+    justify-content: space-between;
   }
   .portfolio-li {
     width: calc((100% - 48px) / 2);
@@ -1298,19 +1315,17 @@
     justify-content: center;
     max-width: 264px;
     margin-right: 24px;
-    margin-left: 106px;
-    margin-bottom: 76px;
+
   }
   .footer-vektor {
     display: flex;
-    /* flex-wrap: wrap; */
-    margin-top: 72px;
     align-content: end;
     flex-direction: column;
-    align-items: center;
+    
   }
-  .container-telega {
-    margin-left: 108px;
+ 
+  .social-footer-list {
+    margin-bottom: 0;
   }
 
   .forma-dup {
@@ -1321,7 +1336,18 @@
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0 108px;
   }
+  .input-footer {
+    min-width: 264px;
+    min-height: 40px;
+  }
+
+  .footer-title {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 
   /*======================================== Bakdrop ============================*/
   .modal-window {
@@ -1358,12 +1384,17 @@
   .adress-list {
     display: flex;
     gap: 40px;
+    flex-direction: row;
   }
   /* ============================TEST=============== */
 
   .hero-class {
     padding-top: 188px;
     padding-bottom: 188px;
+  }
+
+  .flex-list-header {
+    padding: 0 15px;
   }
 
   /* =================Features=========== */
@@ -1406,9 +1437,6 @@
     color: #434455;
   }
 
-  .features-section {
-    padding: 0 0;
-  }
   /* ==============================Our Team=================== */
 
   .work-social {
@@ -1549,4 +1577,47 @@
   .portfolio-ul {
     row-gap: 48px;
   }
+
+  .input-footer {
+    width: 100%;
+  }
+
+  .input-footer {
+    min-width: 264px;
+    min-height: 40px;
+  }
+
+  .features-lishka {
+    margin-bottom: 0;
+  }
+
+ .container-foot {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+  }
+
+.footer-vektor {
+  margin-right: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
