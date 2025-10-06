@@ -1270,7 +1270,8 @@
 
   .workers-ul {
     display: flex;
-    gap: 64px;
+    column-gap: 24px;
+    row-gap: 64px;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
