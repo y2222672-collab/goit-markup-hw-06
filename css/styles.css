@@ -92,6 +92,14 @@
     padding-bottom: 72px;
   }
 
+.features-lishka-last {
+  margin-bottom: 0;
+min-width: 356px;
+}
+
+
+
+
   /* ===========================================Logo, hero============== */
 
   .hero-title {
@@ -1255,12 +1263,14 @@
   .features-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .features-lishka {
     flex-basis: calc((100% - 24px) / 2);
     margin-bottom: 0;
+
   }
 
   /*  ======================OUR PORTFOLIO ==============*/
@@ -1312,12 +1322,13 @@
     flex-direction: column;
     justify-content: center;
     max-width: 264px;
-    margin-right: 24px;
+    
   }
   .footer-vektor {
     display: flex;
     align-content: end;
     flex-direction: column;
+    margin-left: 24px;
   }
 
   .social-footer-list {
@@ -1548,25 +1559,28 @@
 
   /* ====================================FOOTER======================== */
 
-  .container-foot {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
+.footer-color {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ 
   .fantasy {
     margin-left: 0;
-    margin-right: 120px;
     max-width: 264px;
-    margin-bottom: 99px;
+   margin-right: 0;
+    margin-bottom: 0;
   }
 
   .footer-vektor {
-    margin-bottom: 65px;
+   margin-left: 120px;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 
   .container-telega {
-    margin-bottom: 65px;
+   margin-left: 80px;
   }
 
   .portfolio-ul {
@@ -1591,9 +1605,10 @@
     align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
   }
 
-  .footer-vektor {
-    margin-right: 80px;
-  }
+ 
 }
