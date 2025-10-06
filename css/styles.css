@@ -1069,9 +1069,6 @@
 
 /* =========================================================Min 768px Planshet=================== */
 
-
-
-
 @media screen and (min-width: 768px) {
   .burger-button {
     display: none;
@@ -1316,15 +1313,13 @@
     justify-content: center;
     max-width: 264px;
     margin-right: 24px;
-
   }
   .footer-vektor {
     display: flex;
     align-content: end;
     flex-direction: column;
-    
   }
- 
+
   .social-footer-list {
     margin-bottom: 0;
   }
@@ -1348,7 +1343,6 @@
     margin-left: 0;
     margin-right: 0;
   }
-
 
   /*======================================== Bakdrop ============================*/
   .modal-window {
@@ -1592,33 +1586,14 @@
     margin-bottom: 0;
   }
 
- .container-foot {
+  .container-foot {
     display: flex;
     align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
-    
   }
 
-.footer-vektor {
-  margin-right: 80px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .footer-vektor {
+    margin-right: 80px;
+  }
 }
